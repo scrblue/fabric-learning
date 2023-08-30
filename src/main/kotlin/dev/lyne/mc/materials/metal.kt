@@ -38,16 +38,37 @@ class MetalMaterial(name: String) {
 
     public val BLOCK_OF_RAW_ORE =
             registerBlockAndItem(
-                    "block_of_raw_$name",
+                    "block_raw_$name",
                     FabricBlockSettings.create().strength(5.0f).requiresTool(),
                     FabricItemSettings()
             )
 
     public val BLOCK_OF_METAL =
             registerBlockAndItem(
-                    "block_of_$name",
+                    "block_$name",
                     FabricBlockSettings.create().strength(5.0f).requiresTool(),
                     FabricItemSettings()
+            )
+
+    public val RAW_ORE =
+            Registry.register(
+                    Registries.ITEM,
+                    Identifier("fabric-learning", "raw_$name"),
+                    Item(FabricItemSettings())
+            )
+
+    public val NUGGET =
+            Registry.register(
+                    Registries.ITEM,
+                    Identifier("fabric-learning", "nugget_$name"),
+                    Item(FabricItemSettings())
+            )
+
+    public val INGOT =
+            Registry.register(
+                    Registries.ITEM,
+                    Identifier("fabric-learning", "ingot_$name"),
+                    Item(FabricItemSettings())
             )
 }
 

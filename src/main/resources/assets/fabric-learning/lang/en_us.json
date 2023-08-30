@@ -1,4 +1,9 @@
 {
-  "item.fabric-learning.aluminum_ore"i: "Aluminum Ore",
-  "item.fabric-learning.deepslate_aluminum_ore": "Deepslate Aluminum Ore"
+  "block.fabric-learning.aluminum_ore": "Aluminum Ore",
+  "block.fabric-learning.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
+  "block.fabric-learning.block_raw_aluminum": "Block of Raw Aluminum",
+  "block.fabric-learning.block_aluminum": "Block of Aluminum",
+  "item.fabric-learning.raw_aluminum": "Raw Aluminum",
+  "item.fabric-learning.nugget_aluminum": "Aluminum Nugget",
+  "item.fabric-learning.ingot_aluminum": "Aluminum Ingot"
 }

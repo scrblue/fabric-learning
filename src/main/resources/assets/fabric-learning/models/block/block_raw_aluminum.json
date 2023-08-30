@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fabric-learning:block/block_raw_aluminum"
+  }
+}
