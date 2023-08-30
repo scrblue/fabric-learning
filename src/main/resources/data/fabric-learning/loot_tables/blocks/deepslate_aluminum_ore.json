@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fabric-learning:deepslate_aluminum_ore"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minceraft:surives_explosion"
+        }
+      ]
+    }
+  ]
+}
